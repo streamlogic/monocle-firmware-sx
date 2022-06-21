@@ -1,0 +1,26 @@
+# SwaraLink Bluetooth® Low Energy Platform License Information
+
+Unless otherwise marked, all files within this directory and all
+subdirectories, including documentation, source code, object code, and project
+files, are part of the SwaraLink Bluetooth Low Energy Platform and are 
+considered “Licensed Materials” that are covered under a commercial Software
+License Agreement between SwaraLink Technologies and Brilliant Labs Limited.
+Under the terms of the agreement, the Licensed Materials are only licensed for
+use when incorporated into Brilliant Labs Limited's Monocle product.
+
+The Licensed Materials are all copyrighted works owned by SwaraLink
+Technologies, and use of Licensed Materials within any other hardware device
+for any purpose, commercial or otherwise, without a valid license is NOT
+authorized and is a violation of U.S. and international copyright laws.
+
+The SwaraLink Bluetooth Low Energy Platform is a commercial software product
+designed to simplify the development of highly-optimized products that use
+Bluetooth Low Energy Technology. For inquiries in obtaining a license to use
+the SwaraLink Bluetooth Low Energy Platform, or for more information about
+SwaraLink Technologies, please visit www.swaralink.com or contact SwaraLink
+Technologies via email at info@swaralink.com.
+
+The Bluetooth® word mark and logos are registered trademarks owned by 
+Bluetooth SIG, Inc. and any use of such marks by SwaraLink Technologies is 
+under license. Other trademarks and trade names are those of their respective
+owners.

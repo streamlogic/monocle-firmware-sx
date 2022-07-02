@@ -81,15 +81,12 @@
     </folder>
     <folder Name="Application">
       <file file_name="../config/sdk_config.h" />
-      <file file_name="../../../main.c" />
       <file file_name="../../../adc.c" />
-      <file file_name="../../../fpga.c" />
       <file file_name="../../../i2c.c" />
       <file file_name="../../../oled.c" />
       <file file_name="../../../pwr.c" />
       <file file_name="../../../spi.c" />
       <file file_name="../../../touch.c" />
-      <file file_name="../../../unit.c" />
       <file file_name="../../../iqs620.c" />
       <file file_name="../../../led.c" />
       <file file_name="../../../max77654.c" />
@@ -98,6 +95,10 @@
       <file file_name="../../../media.c" />
       <file file_name="../../../protocol.c" />
       <file file_name="../../../lib/support_lib.a" />
+      <file file_name="../../../monocle.c" />
+      <file file_name="../../../monocle.h" />
+      <file file_name="../../../app.c" />
+      <file file_name="../../../sxfpga.c" />
     </folder>
     <folder Name="nRF_Segger_RTT">
       <file file_name="../../../../../../external/segger_rtt/SEGGER_RTT.c" />

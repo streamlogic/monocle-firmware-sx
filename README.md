@@ -2,6 +2,12 @@
 
 This fork is an adaptation of the Moncole firmware to work with StreamLogic FPGA applications.
 
+## Development
+
+The entrypoint is in `app.c`.  There you will find various demo applications that can be adapted for your own use.
+
+## Upstream
+
 Orignal README below ...
 
 # monocle

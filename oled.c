@@ -13,7 +13,7 @@
 
 #include "oled.h"
 #include "nrf_assert.h"
-#include "fpga.h" // for fpga_checksum()
+#include "sxfpga.h" // for fpga_checksum()
 #include "nrf_log.h"
 
 // ===== private functions =====

@@ -13,11 +13,10 @@
 
 #include "tx.h"
 #include "board.h"
-#include "fpga.h"
+#include "sxfpga.h"
 #if !(FPGA_BUFFERS_SUPPORTED == 1)
 #error "tx module does not yet support multiple buffers"
 #endif
-#include "unit.h"
 
 #ifdef BLE_ON
 // SWL Peripheral Library Includes
@@ -111,6 +110,8 @@ bool check_data_bluescreen(uint8_t *data, uint32_t length)
 
 
 // ====== public function implementations =====
+
+#if !STREAMLOGIC_FPGA
 
 bool tx_init(void)
 {
@@ -368,3 +369,4 @@ bool tx_is_full(void)
     return tx_is_ble_transferring; // if transferring, the buffer is in use
 //TODO support multiple buffers
 }
+#endif

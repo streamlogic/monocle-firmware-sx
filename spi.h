@@ -32,8 +32,8 @@ void spi_init(void);
 void spi_uninit(void);
 void spi_set_cs_pin(uint8_t cs_pin);
 void spi_write_byte(uint8_t addr, uint8_t data);
-void spi_write_burst(uint8_t addr, const uint8_t *data, uint16_t length);
 uint8_t spi_read_byte(uint8_t addr);
+uint8_t *spi_write_burst(uint8_t addr, const uint8_t *data, uint16_t length);
 uint8_t *spi_read_burst(uint8_t addr, uint16_t length);
 
 // for unit testing

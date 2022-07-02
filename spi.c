@@ -96,7 +96,7 @@ void spi_set_cs_pin(uint8_t cs_pin)
     m_spi_cs_pin = cs_pin;
 }
 
-void spi_write_burst(uint8_t addr, const uint8_t *data, uint16_t length)
+uint8_t *spi_write_burst(uint8_t addr, const uint8_t *data, uint16_t length)
 {
     ASSERT(length <= SPI_MAX_BURST_LENGTH);
 
@@ -125,7 +125,8 @@ void spi_write_burst(uint8_t addr, const uint8_t *data, uint16_t length)
     {
         __WFE();
     }
-    
+
+    return &m_rx_buf[1];
 }
 
 void spi_write_byte(uint8_t addr, uint8_t data)

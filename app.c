@@ -17,11 +17,11 @@ void log_grayscale(uint8_t *buf, uint16_t buflen, uint16_t imgwidth);
 int main(void) {
   //// Uncomment one of the demo apps:
 
-  //demo1();
+  demo1();
 
   //demo2();
 
-  demo3();
+  //demo3();
 }
 
 
